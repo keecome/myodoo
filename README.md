@@ -2,7 +2,7 @@
 sn | Name | model
 addon | version | summary
 --- | --- | ---
-1 | OpenEduCat Core | openeducat_core
+[1](1) | OpenEduCat Core | openeducat_core
 2 | POS Margin | pos_margin
 3 | WooCommerce Connector | connector_woocommerce
 4 | OpenEduCat Activity | openeducat_activity
