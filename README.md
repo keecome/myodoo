@@ -1,5 +1,6 @@
 # myodoo
-sn | Name | model
+Available addons
+----------------
 addon | version | summary
 --- | --- | ---
 [1](1) | OpenEduCat Core | openeducat_core
