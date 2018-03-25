@@ -1,4 +1,165 @@
 # myodoo
+
+Project
+----------------
+addon | version 
+--- | --- 
+access-addons | access addons
+addons-dev | addons dev
+arodoo_stock_barcode | arodoo_stock_barcode
+bank-statement-reconcile | bank statement reconcile
+booking-addons | booking addons
+docker-odoo-nginx | docker odoo nginx
+install-odoo | install odoo
+install-odoo-docker | install odoo docker
+mail-addons | mail addons
+misc-addons | misc addons
+monkey-addons | monkey addons
+odoo-development | odoo development
+odoo-runbot-docker | odoo runbot docker
+odoo-saas-tools | odoo saas tools
+odoo-telegram | odoo telegram
+partner | partner
+pos-addons | pos addons
+postfix-docker | postfix docker
+pylint-conf | pylint conf
+screenticket | screenticket
+svalka | svalka
+txgh | txgh
+vnc-browsers | vnc browsers
+website-addons | website addons
+account-analytic | account analytic
+account-budgeting | account budgeting
+account-closing | account closing
+account-consolidation | account consolidation
+account-financial-reporting | account financial reporting
+account-financial-tools | account financial tools
+account-fiscal-rule | account fiscal rule
+account-invoice-reporting | account invoice reporting
+account-invoicing | account invoicing
+account-payment | account payment
+account-reconcile | account reconcile
+ansible-odoo | ansible odoo
+apps-store | apps store
+bank-payment | bank payment
+bank-statement-import | bank statement import
+business-requirement | business requirement
+calendar | calendar
+commission | commission
+community-data-files | community data files
+connector | connector
+connector-accountedge | connector accountedge
+connector-cmis | connector cmis
+connector-ecommerce | connector ecommerce
+connector-interfaces | connector interfaces
+connector-jira | connector jira
+connector-lengow | connector lengow
+connector-lims | connector lims
+connector-magento | connector magento
+connector-magento-php-extension | connector magento php extension
+connector-odoo2odoo | connector odoo2odoo
+connector-prestashop | connector prestashop
+connector-redmine | connector redmine
+connector-sage | connector sage
+connector-salesforce | connector salesforce
+connector-telephony | connector telephony
+connector-woocommerce | connector woocommerce
+contract | contract
+contribute-md-template | contribute md template
+crm | crm
+currency | currency
+ddmrp | ddmrp
+delivery-carrier | delivery carrier
+department | department
+donation | donation
+dotnet | dotnet
+e-commerce | e commerce
+edi | edi
+event | event
+geospatial | geospatial
+hr | hr
+hr-timesheet | hr timesheet
+infrastructure-dns | infrastructure dns
+interface-github | interface github
+intrastat | intrastat
+knowledge | knowledge
+maintainer-quality-tools | maintainer quality tools
+maintainer-tools | maintainer tools
+maintenance | maintenance
+management-system | management system
+manufacture | manufacture
+manufacture-reporting | manufacture reporting
+margin-analysis | margin analysis
+mis-builder | mis builder
+multi-company | multi company
+oca-custom | oca custom
+oca-decorators | oca decorators
+odooasynchronous-jobsaddons | odooasynchronous jobsaddons
+odoo-community.org | odoo community.org
+odoorpc | odoorpc
+odoo-sentinel | odoo sentinel
+odoo-sphinx-autodoc | odoo sphinx autodoc
+OpenUpgrade | OpenUpgrade
+openupgradelib | openupgradelib
+operating-unit | operating unit
+partner-contact | partner contact
+pos | pos
+product-attribute | product attribute
+product-kitting | product kitting
+product-variant | product variant
+program | program
+project | project
+project-agile | project agile
+project-reporting | project reporting
+purchase-reporting | purchase reporting
+purchase-workflow | purchase workflow
+pylint-odoo | pylint odoo
+pythonaddonprojectodoo | pythonaddonprojectodoo
+pythonemrodoomedical | pythonemrodoomedical
+python-libraryodoohelper-functions | python libraryodoohelper functions
+queue | queue
+reporting-engine | reporting engine
+report-print-send | report print send
+rma | rma
+runbot-addons | runbot addons
+sale-financial | sale financial
+sale-reporting | sale reporting
+sale-workflow | sale workflow
+server-auth | server auth
+server-backend | server backend
+server-brand | server brand
+server-env | server env
+server-tools | server tools
+server-ux | server ux
+social | social
+stock-logistics-barcode | stock logistics barcode
+stock-logistics-reporting | stock logistics reporting
+stock-logistics-tracking | stock logistics tracking
+stock-logistics-transport | stock logistics transport
+stock-logistics-warehouse | stock logistics warehouse
+stock-logistics-workflow | stock logistics workflow
+survey | survey
+vertical-abbey | vertical abbey
+vertical-agriculture | vertical agriculture
+vertical-association | vertical association
+vertical-community | vertical community
+vertical-construction | vertical construction
+vertical-edition | vertical edition
+vertical-education | vertical education
+vertical-hotel | vertical hotel
+vertical-isp | vertical isp
+vertical-medical | vertical medical
+vertical-ngo | vertical ngo
+vertical-realestate | vertical realestate
+vertical-travel | vertical travel
+web | web
+webhook | webhook
+webkit-tools | webkit tools
+website | website
+website-cms | website cms
+website-themes | website themes
+
+
 Available addons
 ----------------
 addon | version | summary
