@@ -1,0 +1,2 @@
+# auto_backup
+Odoo的好用版本auto_backup，可在odoo后台成功设置备份数据库，比odoo官方老外那个auto_backup要适合中国。至少我用着稳定。
