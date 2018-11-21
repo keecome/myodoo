@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'AdminLTE Backend Theme',
-    "summary": "Odoo 10.0 community adminlte backend theme",
+    "summary": "Odoo 11.0 community adminlte backend theme",
     'category': 'Themes/Backend',
     'author': '碎石头(360026606@qq),广州救火(7017511@qq),风逍逍(675938238@qq.com)',
     'version': '11.0.1.0.0',
