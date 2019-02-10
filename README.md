@@ -3,17 +3,16 @@
 
 |Author|果冻虾仁|
 |---|---
-"|Java Path Not Found !
-Please add java path into the jasper configuration page under the company form view|"
+|Java Path Not Found !
+Please add java path into the jasper configuration page under the company form view|
 | You have selected Link product template with existing product but %s Product template does not exist|
 |Post new message to record. Original message text will be qouted. Record followers will be notified!|
 |Provide the field used to link the newly created record on the record on used by the server action.|
 |Provide the field used to link the newly created record on the record on used by the server action.|
 |The Sales Order %s linked to the Analytic Account %s must be validated before registering expenses.|
 |This product "%s" does not have a price set for this seller "%s". Please contact the administrator.|
-"|
-        This is core for all basic operations features provided in Webkul's Bridge Modules.
-    |"
+|        This is core for all basic operations features provided in Webkul's Bridge Modules.
+    |
 |The client is currently blocked due to pending invoices. Please contact him for prompt payment.|
 |The message will be sent only for recipients below. It will not be sent to documents followers|
 |The message will be sent only for recipients below. It will not be sent to documents followers|
@@ -38,35 +37,31 @@ Please add java path into the jasper configuration page under the company form v
 |France - VAT Anti-Fraud Certification (CGI 286 I-3 bis) - Sale Closings|
 |The active field allows you to hide the date range without removing it.|
 |The active field allows you to hide the date range without removing it.|
-"|
-        Enables selecting a range of records using the shift key
-    |"
+|        Enables selecting a range of records using the shift key
+    |
 |Field %r used in attributes must be present in view but is missing:|
 |Your java path which was downloaded from http://www.serpentcs.com/|
 |The lock date for advisors is irreversible and can't be removed.|
 |Post new message to record. Record followers will be notified!|
-"|User(Salesperson) is different for ""%s"" .
- Please define same.|"
-"|
-        Enables expanding/reset all groups in list view
-    |"
-"|
-        Generate Electronic Invoice with Customs Number
-    |"
-"|
-        Generate Electronic Invoice with Customs Number
-    |"
+|User(Salesperson) is different for ""%s"" .
+ Please define same.|
+|        Enables expanding/reset all groups in list view
+    |
+|        Generate Electronic Invoice with Customs Number
+    |
+|        Generate Electronic Invoice with Customs Number
+    |
 |The "App Switcher" action cannot be selected as home action.|
 |This module is for create customs in the workflow of company|
 |Use the whole available screen width when displaying sheets|
-"|Customer name is different for ""%s"" .
- Please define same.|"
+|Customer name is different for ""%s"" .
+ Please define same.|
 |Verify that a main warehouse is configured for the report.|
 |Configure different outgoing mail server for each company|
 |Express discounts on SO lines as mathematical expressions|
 |Express discounts on SO lines as mathematical expressions|
-"|libraries Not Found !
-There is No libraries found in Java|"
+|libraries Not Found !
+There is No libraries found in Java|
 |Odoo Mexico Localization for Invoice with customs Number|
 |This apps help to Manage credit limit of your customers.|
 |We cannot import data in validated or confirmed Invoice.|
@@ -77,19 +72,18 @@ There is No libraries found in Java|"
 |France - VAT Anti-Fraud Certification (CGI 286 I-3 bis)|
 |Allow to pick the Outgoing Server when composing email|
 |External Trade Complement for the Mexican localization|
-"|Pricelist is different for ""%s"" .
- Please define same.|"
+|Pricelist is different for ""%s"" .
+ Please define same.|
 |We cannot import data in validated or confirmed order.|
 |Created Purchase Order will be put to selected state.|
-"|Currency is different for ""%s"" .
- Please define same.|"
+|Currency is different for ""%s"" .
+ Please define same.|
 |Your file contains more quantity then initial demand.|
 |Arguments sent to the client along with the view tag|
 |Open the linked resource when clicking on their name|
 |Please specify a valid model for the object relation|
-"|
-Move the cash basis lines to another account.
-    |"
+|Move the cash basis lines to another account.
+    |
 |report.abs_top_sold_products.report_products_amount|
 |Your File has extra column please refer sample file|
 |Search, create or modify directly sale order lines|
@@ -179,7 +173,7 @@ Move the cash basis lines to another account.
 |stock.warn.insufficient.qty.unbuild|
 |Vendor invoices due on or before %s|
 | "%s" Pricelist are not available.|
-|%(field)s %(operator)s "%(value)s"|
+|%(field)s %(operator)s "%(value)s|
 |Allow convert SO to Purchase Order|
 |Assign/Unassign Followers Settings|
 |Assign/Unassign Followers Settings|
@@ -215,7 +209,7 @@ Move the cash basis lines to another account.
 |Jasper Reports - Load initially|
 |Link partners with mass-mailing|
 |Messages: View technical fields|
-|Not Valid Salesperson Name "%s"|
+|Not Valid Salesperson Name "%s|
 |Please define Customer account.|
 |Product is not available "%s" .|
 |report.account.report_financial|
@@ -264,7 +258,7 @@ Move the cash basis lines to another account.
 |Sale Order Multiple Discount|
 |Stock Picking Cancel/Reverse|
 |stock.overprocessed.transfer|
-|"%s" Tax not in your system|
+|%s" Tax not in your system|
 |Access to Private Addresses|
 |Account Invoice Line Report|
 |Disable Partner as Follower|
@@ -274,7 +268,7 @@ Move the cash basis lines to another account.
 |Import Purchase Order Lines|
 |Import Purchase Order Lines|
 |ir.actions.act_window_close|
-|Not Valid Product Name "%s"|
+|Not Valid Product Name "%s|
 |Product Variant Extra Price|
 |publisher_warranty.contract|
 |Reference to Purchase Order|
@@ -311,13 +305,13 @@ Move the cash basis lines to another account.
 |ir.qweb.field.float_time|
 |List Due Vendor Invoices|
 |Web Disable Export Group|
-|"%s" Product not found.|
+|%s" Product not found.|
 |Allow convert Quotation|
 |Import Sale Order Lines|
 |ir.qweb.field.selection|
 |Model %s does not exist|
 |Picking / Button Cancel|
-|Product Not Found  "%s"|
+|Product Not Found  "%s|
 |product.attribute.price|
 |product.attribute.value|
 |Reference to Sale Order|
@@ -415,7 +409,7 @@ Move the cash basis lines to another account.
 |Supplier Information|
 |test-field-converter|
 |wizard_custom_credit|
-|"%s" does not found|
+|%s" does not found|
 |%s Vendor Not Found|
 |Import Supplierinfo|
 |ir.config_parameter|
@@ -521,9 +515,8 @@ Move the cash basis lines to another account.
 |Record Followers|
 |res.request.link|
 |SAT Digital Sail|
-"|
-Mail Messages
-|"
+|Mail Messages
+|
 |Advanced search|
 |Asterisk (VoIP)|
 |Current Order :|
@@ -543,8 +536,8 @@ Mail Messages
 |Please purchase|
 |Product Details|
 |Related record:|
-"|Report Error
-%s|"
+|Report Error
+%s|
 |sale_management|
 |Sequence Option|
 |Sequence Option|
