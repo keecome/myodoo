@@ -3,162 +3,17 @@
 
 |Author|果冻虾仁|
 |---|---
-|
-	BrowseInfo developed a new odoo/OpenERP module apps.
-	This module is useful for import  serial number/Lot number with picking from Excel and CSV file .
-        Its also usefull for import opening stock balance with serial number from XLS or CSV file.
-	    -Import serial number.
-        -Import lot number inside picking.
-	-Import product lot number, import product serial number
-	-Inventory import from CSV, stock import from CSV, Inventory adjustment import, Opening stock import. Import warehouse stock, Import product stock.Manage Inventory, import inventory with lot number, import inventory with serial number, import inventory adjustment with serial number, import inventory adjustment with lot number. import inventory data, import stock data, import opening stock with lot number, import lot number from excel, import serial number from excel.
-
-	    -Import serial number in incoming shipment, import lot number in shipment.
-        -Import lot number in delivery order.
-	-Import product lot number in delivery, import product serial number in delivery note
-	-delivery serial import from CSV, lot import from CSV, Inventory serial number import, serial number import. Import lot number stock, Import product serial on picking .Manage Inventory, import shipment with lot number, import delivery order with serial number, import lot number inside delivery order, import serial number inside delivery order. import lot number data, import serial number data, import stock lot number in picking, import lot number from excel, import serial number from excel.
-
-
-
-
- |
-|
-    Odoo/OpenERP module for manul currency rate converter
-    Currency Exchange Rate on Invoice/Payment/Sale/Purchase, manual multi currency process on invoice, multi currency payment
-    Currency Exchange Rate on Payment/Sale/Purchase
-    Manual Currency Exchange Rate on invoice payment
-    Manual Currency Rate on invoice payment
-    Currency Exchange Rate on Sales order
-    Currency Exchange Rate on Sale order
-    Currency Exchange Rate on Purchase Order
-    Apply Manual Currency Exchange Rate on Invoice/Payment/Sale/Purchase
-    Apply Manual Currency Exchange Rate on Payment
-    Apply Manual Currency Exchange Rate on Sale Order
-    Apply Manual Currency Exchange Rate on Purchase Order
-
-    Apply Manual Currency Rate on Invoice/Payment/Sale/Purchase
-    Apply Manual Currency Rate on Payment
-    Apply Manual Currency Rate on Sale Order
-    Apply Manual Currency Rate on Purchase Order
-    multi-currency process on invoice, multi-currency payment
-    currency converter on Odoo
-    invoice currency rate
-    Manual Exchange rate of Currency apply
-    manual currency rate on invoice
-    currency rate apply manually
-
-    |
-| This openerp module show credit limit on partner, Account receivable amount agaist credit limit, Partner credit limit Warning, customer credit limit Warning, Total Account Receivable amount on sale. AR on sales,Partner AR agaist credit limit, ovedue warning, customer warning , customer credit warning,Customer Credit limit Warning on Sales, Sales Credit Warning Against AR.Payment credit warning, Account limit warning, Client overdemand warning, Client overlimit warning.
-    Customer Credit limit, credit limit of customer,customer credit approval, partner credit limit, credit limit on customer, credit limit on partner, customer credit account, customer credit limit agiast account,customer account credit limit, credit limit on customer cart
-    |
-|
-This module adds support for automatic sales closings with computation of both period and cumulative totals (daily, monthly, annually)
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-The module adds following features:
-
-    Storage: automatic sales closings with computation of both period and cumulative totals (daily, monthly, annually)
-
-|
-|
-    Make the lock date irreversible:
-
-    * You cannot define stricter conditions on advisors than on users. Then, the lock date on advisor must be set before the lock date for users.
-    * You cannot lock a period that is not finished yet. Then, the lock date for advisors must be set before the last day of the previous month.
-    * The new lock date for advisors must be set after the previous lock date.
-    |
-|
-A technical module to redefine functionality of default message_post
-    * Message_post is fully redefined for all the models inherited from mail.thread
-    * Several context actions are added to guarantee work of the modules
-        'internal_thread', 'compoze_no_auto_subscribe', 'super_inbox'
-    |
-|This will subtract quantities from the sale quotations from the quantities available to promise.
-This installs the modules stock_available_sale.
-If the modules sale and sale_delivery_date are not installed, this will install them too|
-|This will add the quantities of goods that can be immediately manufactured, to the quantities available to promise.
-This installs the module stock_available_mrp.
-If the module mrp is not installed, this will install it too|
-|Quantity of this Product that could be produced using the materials already at hand. If the product has several variants, this will be the biggest quantity that can be made for a any single variant.|
-|The Sales Order %s linked to the Analytic Account %s is currently locked. You cannot register an expense on a locked Sales Order. Please create a new SO linked to this Analytic Account.|
-|An unknown CORS error occured. The error probably originates from a JavaScript file served from a different origin. (Opening your browser console might give you a hint on the error.)|
-|
-    This module integrates Jasper Reports with Odoo. V6 and v7 compatible""
-    version was made by NaN-tic.
-    Serpent Consulting Services Pvt. Ltd. has migrated it to v10. |
-|
-    This module integrates Jasper Reports with Odoo. V6 and v7 compatible""
-    version was made by NaN-tic.
-    Serpent Consulting Services Pvt. Ltd. has migrated it to v11. |
-|
- This module prevents adding partners/customers as followers of the document while including them as recipient of a message send via ""Send a message"" feature in records.
-    |
-| This module enables the user to select different outgoing mail servers for each mass mailing records rather than using the default server which is configured for Odoo.|
-| This module enables the user to select different outgoing mail servers for each mass mailing records rather than using the default server which is configured for Odoo.|
-|Choose the field of the product which will be used to compute potential.
-If empty, Quantity On Hand is used.
-Only the quantity fields have meaning for computing stock|
-|Your Odoo Server does not support SMTP-over-SSL. You could use STARTTLS instead. If SSL is needed, an upgrade to Python 2.6 on the server-side should do the trick.|
-|You cannot lock a period that is not finished yet. Please make sure that the lock date for advisors is not set after the last day of the previous month.|
-|If enabled, the full output of SMTP sessions will be written to the server log at DEBUG level (this is very verbose and may include confidential info!)|
-|Odoo helps you easily track all activities related to
-           a customer: discussions, history of business opportunities,
-           documents, etc.|
-|Mail Messages Easy. Reply to message, Forward messages or Move messages to other thread, Mark messages, Email client style for messages views and more|
-|You cannot define stricter conditions on advisors than on users. Please make sure that the lock date on advisor is set before the lock date for users.|
-|Odoo all import for Sales, Purchase, Invoice, Inventory,BOM,Customer/Supplier Payment, Bank Statement, Journal Entry, Picking, Product, Customer.|
-|Stock for this Product that can be safely proposed for sale to Customers.
-The definition of this value can be configured to suit your needs.|
-|Converting Sale Order to Purchase Order/RFQ with single button click, transfer all important and compatible data. Configurable in settings.|
-|Stock for this Product that can be safely proposed for sale to Customers.
-The definition of this value can be configured to suit your needs|
-|Used to hold the reference of the external mean that created this statement (name of imported file, reference of online synchronization...)|
-|The Selection Options expression is not a valid Pythonic expression. Please provide an expression in the [('key','Label'), ...] format.|
-|This will subtract incoming quantities from the quantities available to promise.
-This installs the module stock_available_immediately.|
-|
-Bolivian accounting chart and tax localization.
-
-Plan contable boliviano e impuestos de acuerdo a disposiciones vigentes
-
-    |
-|Sorry, your Credit limit has exceeded. You can still confirm
-						Order but a mail will be sent to administration department.|
-|The Sales Order %s linked to the Analytic Account %s is cancelled. You cannot register an expense on a cancelled Sales Order.|
-|You have been put on hold due to exceeding your credit limit. Please contact administration for further guidance. 
- Thank You|
-|Copy message to other record. Original message text will be qouted and kept. Followers of the other record will be notified!|
-|${object.company_id.name} ${object.state in ('draft', 'sent') and 'Quotation' or 'Order'} (Ref ${object.name or 'n/a' })|
-|If all messages are moved from lead and there are no other messages left except for notifications lead will be deleted|
-|You cannot set a currency on this account as it already has some journal entries having a different foreign currency.|
-|Account that will be set on lines created in cash basis journal entry and used to keep track of the tax base amount.|
-|This module helps to import serial number/Lot number with incoming shipment/delivery order using csv or excel file|
-|
-        Electronic accounting reports
-            - COA
-            - Trial Balance
-        DIOT Report
-    |
-|No report has been marked as default!                                      You need atleast one jrxml report!|
-|%s product is not found"" .
- If you want to create product then first select Import Product By Name option .|
-|Easy to import all odoo data i.e Invoice, Sale, Inventory, Purchase,Payment, Picking, Product and Customer.|
-|Customised module which allows to configure
-            outgoing email server by company.
-                |
-|
-        This module allows you to manually apply additional extra prices
-        for Product's variants.|
-|Java Path Not Found !
-Please add java path into the jasper configuration page under the company form view|
+"|Java Path Not Found !
+Please add java path into the jasper configuration page under the company form view|"
 | You have selected Link product template with existing product but %s Product template does not exist|
 |Post new message to record. Original message text will be qouted. Record followers will be notified!|
 |Provide the field used to link the newly created record on the record on used by the server action.|
 |Provide the field used to link the newly created record on the record on used by the server action.|
 |The Sales Order %s linked to the Analytic Account %s must be validated before registering expenses.|
 |This product "%s" does not have a price set for this seller "%s". Please contact the administrator.|
-|
+"|
         This is core for all basic operations features provided in Webkul's Bridge Modules.
-    |
+    |"
 |The client is currently blocked due to pending invoices. Please contact him for prompt payment.|
 |The message will be sent only for recipients below. It will not be sent to documents followers|
 |The message will be sent only for recipients below. It will not be sent to documents followers|
@@ -183,35 +38,35 @@ Please add java path into the jasper configuration page under the company form v
 |France - VAT Anti-Fraud Certification (CGI 286 I-3 bis) - Sale Closings|
 |The active field allows you to hide the date range without removing it.|
 |The active field allows you to hide the date range without removing it.|
-|
+"|
         Enables selecting a range of records using the shift key
-    |
+    |"
 |Field %r used in attributes must be present in view but is missing:|
 |Your java path which was downloaded from http://www.serpentcs.com/|
 |The lock date for advisors is irreversible and can't be removed.|
 |Post new message to record. Record followers will be notified!|
-|User(Salesperson) is different for ""%s"" .
- Please define same.|
-|
+"|User(Salesperson) is different for ""%s"" .
+ Please define same.|"
+"|
         Enables expanding/reset all groups in list view
-    |
-|
+    |"
+"|
         Generate Electronic Invoice with Customs Number
-    |
-|
+    |"
+"|
         Generate Electronic Invoice with Customs Number
-    |
+    |"
 |The "App Switcher" action cannot be selected as home action.|
 |This module is for create customs in the workflow of company|
 |Use the whole available screen width when displaying sheets|
-|Customer name is different for ""%s"" .
- Please define same.|
+"|Customer name is different for ""%s"" .
+ Please define same.|"
 |Verify that a main warehouse is configured for the report.|
 |Configure different outgoing mail server for each company|
 |Express discounts on SO lines as mathematical expressions|
 |Express discounts on SO lines as mathematical expressions|
-|libraries Not Found !
-There is No libraries found in Java|
+"|libraries Not Found !
+There is No libraries found in Java|"
 |Odoo Mexico Localization for Invoice with customs Number|
 |This apps help to Manage credit limit of your customers.|
 |We cannot import data in validated or confirmed Invoice.|
@@ -222,19 +77,19 @@ There is No libraries found in Java|
 |France - VAT Anti-Fraud Certification (CGI 286 I-3 bis)|
 |Allow to pick the Outgoing Server when composing email|
 |External Trade Complement for the Mexican localization|
-|Pricelist is different for ""%s"" .
- Please define same.|
+"|Pricelist is different for ""%s"" .
+ Please define same.|"
 |We cannot import data in validated or confirmed order.|
 |Created Purchase Order will be put to selected state.|
-|Currency is different for ""%s"" .
- Please define same.|
+"|Currency is different for ""%s"" .
+ Please define same.|"
 |Your file contains more quantity then initial demand.|
 |Arguments sent to the client along with the view tag|
 |Open the linked resource when clicking on their name|
 |Please specify a valid model for the object relation|
-|
+"|
 Move the cash basis lines to another account.
-    |
+    |"
 |report.abs_top_sold_products.report_products_amount|
 |Your File has extra column please refer sample file|
 |Search, create or modify directly sale order lines|
@@ -324,7 +179,7 @@ Move the cash basis lines to another account.
 |stock.warn.insufficient.qty.unbuild|
 |Vendor invoices due on or before %s|
 | "%s" Pricelist are not available.|
-|%(field)s %(operator)s "%(value)s|
+|%(field)s %(operator)s "%(value)s"|
 |Allow convert SO to Purchase Order|
 |Assign/Unassign Followers Settings|
 |Assign/Unassign Followers Settings|
@@ -360,7 +215,7 @@ Move the cash basis lines to another account.
 |Jasper Reports - Load initially|
 |Link partners with mass-mailing|
 |Messages: View technical fields|
-|Not Valid Salesperson Name "%s|
+|Not Valid Salesperson Name "%s"|
 |Please define Customer account.|
 |Product is not available "%s" .|
 |report.account.report_financial|
@@ -409,7 +264,7 @@ Move the cash basis lines to another account.
 |Sale Order Multiple Discount|
 |Stock Picking Cancel/Reverse|
 |stock.overprocessed.transfer|
-|%s" Tax not in your system|
+|"%s" Tax not in your system|
 |Access to Private Addresses|
 |Account Invoice Line Report|
 |Disable Partner as Follower|
@@ -419,7 +274,7 @@ Move the cash basis lines to another account.
 |Import Purchase Order Lines|
 |Import Purchase Order Lines|
 |ir.actions.act_window_close|
-|Not Valid Product Name "%s|
+|Not Valid Product Name "%s"|
 |Product Variant Extra Price|
 |publisher_warranty.contract|
 |Reference to Purchase Order|
@@ -456,13 +311,13 @@ Move the cash basis lines to another account.
 |ir.qweb.field.float_time|
 |List Due Vendor Invoices|
 |Web Disable Export Group|
-|%s" Product not found.|
+|"%s" Product not found.|
 |Allow convert Quotation|
 |Import Sale Order Lines|
 |ir.qweb.field.selection|
 |Model %s does not exist|
 |Picking / Button Cancel|
-|Product Not Found  "%s|
+|Product Not Found  "%s"|
 |product.attribute.price|
 |product.attribute.value|
 |Reference to Sale Order|
@@ -560,7 +415,7 @@ Move the cash basis lines to another account.
 |Supplier Information|
 |test-field-converter|
 |wizard_custom_credit|
-|%s" does not found|
+|"%s" does not found|
 |%s Vendor Not Found|
 |Import Supplierinfo|
 |ir.config_parameter|
@@ -666,9 +521,9 @@ Move the cash basis lines to another account.
 |Record Followers|
 |res.request.link|
 |SAT Digital Sail|
-|
+"|
 Mail Messages
-|
+|"
 |Advanced search|
 |Asterisk (VoIP)|
 |Current Order :|
@@ -688,8 +543,8 @@ Mail Messages
 |Please purchase|
 |Product Details|
 |Related record:|
-|Report Error
-%s|
+"|Report Error
+%s|"
 |sale_management|
 |Sequence Option|
 |Sequence Option|
