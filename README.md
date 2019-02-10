@@ -13,8 +13,7 @@
 |The Sales Order %s linked to the Analytic Account %s is currently locked. You cannot register an expense on a locked Sales Order. Please create a new SO linked to this Analytic Account.|
 |An unknown CORS error occured. The error probably originates from a JavaScript file served from a different origin. (Opening your browser console might give you a hint on the error.)|
 |    This module integrates Jasper Reports with Odoo. V6 and v7 compatible""    version was made by NaN-tic.    Serpent Consulting Services Pvt. Ltd. has migrated it to v10. |
-|    This module integrates Jasper Reports with Odoo. V6 and v7 compatible""
-    version was made by NaN-tic.    Serpent Consulting Services Pvt. Ltd. has migrated it to v11. |
+|    This module integrates Jasper Reports with Odoo. V6 and v7 compatible""    version was made by NaN-tic.    Serpent Consulting Services Pvt. Ltd. has migrated it to v11. |
 | This module prevents adding partners/customers as followers of the document while including them as recipient of a message send via ""Send a message"" feature in records.    |
 | This module enables the user to select different outgoing mail servers for each mass mailing records rather than using the default server which is configured for Odoo.|
 | This module enables the user to select different outgoing mail servers for each mass mailing records rather than using the default server which is configured for Odoo.|
