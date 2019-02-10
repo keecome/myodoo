@@ -31,8 +31,7 @@
 |Used to hold the reference of the external mean that created this statement (name of imported file, reference of online synchronization...)|
 |The Selection Options expression is not a valid Pythonic expression. Please provide an expression in the [('key','Label'), ...] format.|
 |This will subtract incoming quantities from the quantities available to promise.This installs the module stock_available_immediately.|
-|
-Bolivian accounting chart and tax localization.Plan contable boliviano e impuestos de acuerdo a disposiciones vigentes    |
+|Bolivian accounting chart and tax localization.Plan contable boliviano e impuestos de acuerdo a disposiciones vigentes    |
 |Sorry, your Credit limit has exceeded. You can still confirm						Order but a mail will be sent to administration department.|
 |The Sales Order %s linked to the Analytic Account %s is cancelled. You cannot register an expense on a cancelled Sales Order.|
 |You have been put on hold due to exceeding your credit limit. Please contact administration for further guidance.  Thank You|
