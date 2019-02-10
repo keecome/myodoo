@@ -504,8 +504,7 @@ Please add java path into the jasper configuration page under the company form v
 |Record Followers|
 |res.request.link|
 |SAT Digital Sail|
-|Mail Messages
-|
+|Mail Messages|
 |Advanced search|
 |Asterisk (VoIP)|
 |Current Order :|
