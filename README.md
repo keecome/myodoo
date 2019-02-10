@@ -13,8 +13,7 @@
 |Quantity of this Product that could be produced using the materials already at hand. If the product has several variants, this will be the biggest quantity that can be made for a any single variant.|
 |The Sales Order %s linked to the Analytic Account %s is currently locked. You cannot register an expense on a locked Sales Order. Please create a new SO linked to this Analytic Account.|
 |An unknown CORS error occured. The error probably originates from a JavaScript file served from a different origin. (Opening your browser console might give you a hint on the error.)|
-|    This module integrates Jasper Reports with Odoo. V6 and v7 compatible""
-    version was made by NaN-tic.    Serpent Consulting Services Pvt. Ltd. has migrated it to v10. |
+|    This module integrates Jasper Reports with Odoo. V6 and v7 compatible""    version was made by NaN-tic.    Serpent Consulting Services Pvt. Ltd. has migrated it to v10. |
 |    This module integrates Jasper Reports with Odoo. V6 and v7 compatible""
     version was made by NaN-tic.    Serpent Consulting Services Pvt. Ltd. has migrated it to v11. |
 | This module prevents adding partners/customers as followers of the document while including them as recipient of a message send via ""Send a message"" feature in records.    |
