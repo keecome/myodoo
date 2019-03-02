@@ -13,160 +13,38 @@
 | On Hand|
 |- res : Content to display|
 |- val : Default value|
-|
-        Allows to get product availability taking into account lot removal date
-        |
-|
-        Allows to restrict location to a dedicated procurement group
-        (e.g. : For orders waiting delivery)|
-|
-        Compute stock cost as following logic:
-    |
-|
-        Makes destination package mandatory on stock pack operations|
-|
-        Purchase cost, sales cost, stock cost|
-|
-        Reimplement barcode field in Product Packagings|
-|
-        Stock pack operation auto fill|
-|
-        Stock Quantity Change Reason |
-|
-        This module allows to fill in a date in the standard wizard that
-        changes product price. That helps accountant to add some product
-        past values|
-|
-
-Presentation:
-
-The module Barcode_link adds a field Link in the barcode form.
-And link the barcode with a product.
-
-|
-|
-
-Presentation:
-
-This module add a wizard to fill in packaging.
-This wizard is used to add or remove an object from a package.
-Adding to the historical movements and parent objects
-
-|
-|
-
-Presentation:
-
-This module adds a field into the product category to define if this should be tracked or not.
-
-|
-|
-
-Presentation:
-
-This module adds a sequence for generating automatically inventories name
-
-|
-|
-
-Presentation:
-
-This module adds some info into packs to get a better tracking of products and serial lots inside of these packs
-
-|
-|
-
-Presentation:
-
-This module adds the packaging into the production lot
-
-|
-|
-
-Presentation:
-
-This module allows to define and identify package in parent or child
-
-|
-|
-
-Presentation:
-
-This module allows to define and identify package in parent or child
-
-|
-|
-
-Presentation:
-
-This module allows to move all stock in a stock location to an other one.
-And adds fields and buttons to advance in Physical Inventories.
-
-|
-|
-
-Presentation:
-
-This module allows to move packing with a wizard
-and adds fields for source location and destination location in History.
-
-|
-|
-
-Presentation:
-
-This module Change reference of the packaging if it's re-open.
-
-|
-|
-
-Presentation:
-
-This module will add the state field to make changes of closed packed
-
-|
-|
-Account Dashboard
-|
-|
-Account Payment Report
-|
-|
-Account Period
-|
-|
-Account Period
-|
-|
-Account Voucher
-|
-|
-Add a wizard to configure massively order points for multiple product|
-|
-Adds the possibility to specify the origin country of goods and the partner VAT in the Intrastat XML report.
-    |
-|
-Extends orderpoint wizard to configure massively
-stock location flows for multiple product|
-|
-Multiple EAN13 on products
-==========================
-
-Allow Multiple EAN13 on products.
-A list of EAN13 is available for each product with a priority, so a
-main ean13 code is defined.
-|
-|
-Replaces the legacy rml picking Order report by brand new webkit reports.
-Three reports are provided:
- - Aggregated pickings
- - Aggregated deliveries
- - Delivery Slip
-    |
-|
-You can choose which stock moves have to generate inventory valuation
-accounting entries, by specifying it in the location form.
-|
+|        Allows to get product availability taking into account lot removal date        |
+|        Allows to restrict location to a dedicated procurement group        (e.g. : For orders waiting delivery)|
+|        Compute stock cost as following logic:    |
+|        Makes destination package mandatory on stock pack operations|
+|        Purchase cost, sales cost, stock cost|
+|        Reimplement barcode field in Product Packagings|
+|        Stock pack operation auto fill|
+|        Stock Quantity Change Reason |
+|        This module allows to fill in a date in the standard wizard that        changes product price. That helps accountant to add some product        past values|
+|Presentation:The module Barcode_link adds a field Link in the barcode form.And link the barcode with a product.|
+|Presentation:This module add a wizard to fill in packaging.This wizard is used to add or remove an object from a package.Adding to the historical movements and parent objects|
+|Presentation:This module adds a field into the product category to define if this should be tracked or not.|
+|Presentation:This module adds a sequence for generating automatically inventories name|
+|Presentation:This module adds some info into packs to get a better tracking of products and serial lots inside of these packs|
+|Presentation:This module adds the packaging into the production lot|
+|Presentation:This module allows to define and identify package in parent or child|
+|Presentation:This module allows to define and identify package in parent or child|
+|Presentation:This module allows to move all stock in a stock location to an other one.And adds fields and buttons to advance in Physical Inventories.|
+|Presentation:This module allows to move packing with a wizardand adds fields for source location and destination location in History.|
+|Presentation:This module Change reference of the packaging if it's re-open.|
+|Presentation:This module will add the state field to make changes of closed packed|
+|Account Dashboard|
+|Account Payment Report|
+|Account Period|
+|Account Period|
+|Account Voucher|
+|Add a wizard to configure massively order points for multiple product|
+|Adds the possibility to specify the origin country of goods and the partner VAT in the Intrastat XML report.    |
+|Extends orderpoint wizard to configure massivelystock location flows for multiple product|
+|Multiple EAN13 on products==========================Allow Multiple EAN13 on products.A list of EAN13 is available for each product with a priority, so amain ean13 code is defined.|
+|Replaces the legacy rml picking Order report by brand new webkit reports.Three reports are provided: - Aggregated pickings - Aggregated deliveries - Delivery Slip    |
+|You can choose which stock moves have to generate inventory valuationaccounting entries, by specifying it in the location form.|
 |%(user_name)s invited you to follow %(document)s document: %(title)s|
 |%(user_name)s invited you to follow a new document|
 |(No description provided.)|
@@ -226,8 +104,7 @@ accounting entries, by specifying it in the location form.
 |Actual Movement Date|
 |Actual Movement Date|
 |Add a MTS+MTO route|
-|add filters on stock.picking views
-        |
+|add filters on stock.picking views        |
 |Add note, modification date, etc.|
 |Add product depreciation|
 |Add relation between assets and equipments|
@@ -267,20 +144,14 @@ accounting entries, by specifying it in the location form.
 |Allows to create demand estimates.|
 |Allows to create procurement orders from orderpoints instead of relying only on the scheduler.|
 |Allows to create procurement orders in the UoM indicated in the orderpoint|
-|Allows to set a stock level composed by
- a configuration using the sum of stock location + product fields|
+|Allows to set a stock level composed by a configuration using the sum of stock location + product fields|
 |Allows to share the custom values with a shared scanner in the same warehouse.|
-|An accounting period typically is a month or a quarter. It
-            usually corresponds to the periods of the tax declaration.|
-|An error occured
-
-Please contact your administrator|
-|An inventory is being conducted at the following location(s):
-%s|
+|An accounting period typically is a month or a quarter. It            usually corresponds to the periods of the tax declaration.|
+|An error occuredPlease contact your administrator|
+|An inventory is being conducted at the following location(s):%s|
 |An inventory is being conducted at this location|
 |An inventory is being conducted at this location|
-|An unbuild order will do a reverse bill of materials, unbuilding products
-            you produced, but you can also use it to unbuild products you purchased.|
+|An unbuild order will do a reverse bill of materials, unbuilding products            you produced, but you can also use it to unbuild products you purchased.|
 |Appear on barcode reader screen.|
 |Applied in:|
 |Apply this rule in:|
@@ -350,9 +221,7 @@ Please enter terminal code|
 |check this box if you want to check the availability of the selected Pickings.|
 |check this box if you want to force the availability of the selected Pickings.|
 |check this box if you want to mark as Todo the selected Pickings.|
-|check this box if you want to transfer all the selected pickings.
- You'll not have the possibility to realize a partial transfer.
- If you want  to do that, please do it manually on the picking form.|
+|check this box if you want to transfer all the selected pickings. You'll not have the possibility to realize a partial transfer. If you want  to do that, please do it manually on the picking form.|
 |Check this for automatic orderpoints|
 |Check this if this is the  last step of the scenario.|
 |Check this if this is the first step of the scenario.|
@@ -414,8 +283,7 @@ Please enter terminal code|
 |Cycle Count Rules|
 |Cycle Count Rules|
 |Cycle count rules|
-|Cycle Count Rules
-                    applied in this Warehouse:|
+|Cycle Count Rules                    applied in this Warehouse:|
 |Cycle Counting|
 |Cycle Counts|
 |Cycle Counts Assigned to me|
@@ -486,10 +354,8 @@ Please enter terminal code|
 |Error ! You can not create recursive scenarios.|
 |Error found determining the frequency of periodic cycle count rule. %s|
 |Error found when comparing turnover with the rule threshold. %s|
-|Error in condition for transition ""%s"" at line %d, offset %d:
-%s|
-|Error in python code for step ""%s"" at line %d, offset %d:
-%s|
+|Error in condition for transition ""%s"" at line %d, offset %d:%s|
+|Error in python code for step ""%s"" at line %d, offset %d:%s|
 |Error: The product default Unit of Measure and the procurement Unit of Measure must be in the same category.|
 |Establish a removal priority on stock locations.|
 |Excel报表模板|
@@ -566,9 +432,7 @@ Please enter terminal code|
 |Impossible to create confirmed picking. Please Check products availability!|
 |Impossible to create confirmed picking. Please Check products availability!|
 |Improved reordering rules|
-|In either case you can exclude specific locations
-                        going to the locations form and checking the box
-                        ""Exclude from Cycle Count"".|
+|In either case you can exclude specific locations                        going to the locations form and checking the box                        ""Exclude from Cycle Count"".|
 |In order to close a fiscalyear, you must first post related journal entries.|
 |In order to close a period, you must first post related journal entries.|
 |In Pack|
@@ -675,8 +539,7 @@ Please enter terminal code|
 |Maximum Discrepancy Rate Threshold|
 |Maximum Discrepancy Rate Threshold|
 |Message sent during execution of the step.|
-|Messages can be configured to appear during any operation: receptions, delivery orders,
-                manufacturing orders, work orders, etc.|
+|Messages can be configured to appear during any operation: receptions, delivery orders,                manufacturing orders, work orders, etc.|
 |Min. product quantity|
 |Minimum Accuracy|
 |Minimum Accuracy Threshold|
@@ -685,9 +548,7 @@ Please enter terminal code|
 |Money Order Lines|
 |Money Transfer Order Lines|
 |More filters for inventory adjustments|
-|Most common exceptions are products to purchase without
-                having a vendor defined on the product, and products to
-                manufacture without having a bill of materials.|
+|Most common exceptions are products to purchase without                having a vendor defined on the product, and products to                manufacture without having a bill of materials.|
 |Move ids|
 |Move Stock Location|
 |Move Stock Packaging|
@@ -773,27 +634,9 @@ Please enter terminal code|
 |Posting Date|
 |Posting Date|
 |Prepared|
-|Presentation:
-
-This module add a wizard to fill in packaging.
-This wizard is used to add or remove an object from a package.
-Adding to the historical movements and parent objects
-
-|
-|Presentation:
-
-This module add a wizard to swap packs in packaging.
-This wizard is used to replace an object from a package.
-Adding to the historical movements and parent objects
-
-|
-|Presentation:
-
-This module add a wizard to swap products or prodlots in packaging.
-This wizard is used to replace an object from a package.
-Adding to the historical movements and parent objects
-
-|
+|Presentation:This module add a wizard to fill in packaging.This wizard is used to add or remove an object from a package.Adding to the historical movements and parent objects|
+|Presentation:This module add a wizard to swap packs in packaging.This wizard is used to replace an object from a package.Adding to the historical movements and parent objects|
+|Presentation:This module add a wizard to swap products or prodlots in packaging.This wizard is used to replace an object from a package.Adding to the historical movements and parent objects|
 |Preserve Ownership of moves (not pickings) on reception.|
 |Prevent to add stock on flagged locations|
 |Previous cost|
@@ -1195,8 +1038,7 @@ This quantity include all the production lots with a past removal date.|
 |The 'act' variable must be a single character string.|
 |The chosen date should be today or in the past!|
 |The date used to create account moves. If empty, assumes today.Cannot be a date in the future.|
-|The destination location (%s) is restricted to operation for the procurement group %s.
-Please choose another destination.|
+|The destination location (%s) is restricted to operation for the procurement group %s.Please choose another destination.|
 |The destination location is restricted to another move!|
 |The destination location is restricted to another operation!|
 |The difference between the actual qty counted and the theoretical quantity on hand.|
@@ -1211,8 +1053,7 @@ Please choose another destination.|
 |The package has not been generated.|
 |The pick is already validated|
 |The picking has been re-opened and set to draft state|
-|The Qty Update is over the Discrepancy Threshold.
- Please, contact a user with rights to perform this action.|
+|The Qty Update is over the Discrepancy Threshold. Please, contact a user with rights to perform this action.|
 |The 'res' variable can contain multiple values :|
 |The transition is followed only if this condition is evaluated as True.|
 |the user will be able to manage his own human resources stuff (leave request, timesheets, ...), if he is linked to an employee in the system.|
@@ -1224,11 +1065,9 @@ Please choose another destination.|
 |This button will automatically fill all operations that have no tracking set on the product, no processed qty and no selected package.|
 |This client is specific to the stock_scanner module.|
 |This lot doesn't contain any quant in internal location.|
-|This menu allow you to prepare and reserve some quantities
-            of products.|
+|This menu allow you to prepare and reserve some quantities            of products.|
 |This module adds a button in Production Lot/Serial Number view form to Scrap all products contained.|
-|This module allows you to bring back a completed stock
-picking to draft state|
+|This module allows you to bring back a completed stock picking to draft state|
 |This module displays the sale reference/description in the pickings|
 |This module makes the product customer code visible in the stock moves of a picking.|
 |This priority applies when removing stock and incoming dates are equal.|
@@ -1249,9 +1088,7 @@ picking to draft state|
 |time, datetime, timezone: Python module|
 |Tmp values|
 |To create a new work center, Go to <b><i> Master Data/Work Centers. </i></b>|
-|To create expenses by email, take photos of your
-                            receipts and send them by email with the following
-                            information:|
+|To create expenses by email, take photos of your                             receipts and send them by email with the following                            information:|
 |Tracer|
 |Transaction Authorization is not supported by this payment provider.|
 |Transition executed during this history line.|
@@ -1315,11 +1152,8 @@ picking to draft state|
 |You are authenticated as %s !|
 |You are now authenticated as %s !|
 |You are now logged out|
-|You can apply the cycle count rules in complete
-                        warehouses or specific zones. A zone it is
-                        understood as a location and all its children.|
-|You can change destination location in operations.
-                    <br/>|
+|You can apply the cycle count rules in complete                        warehouses or specific zones. A zone it is                        understood as a location and all its children.|
+|You can change destination location in operations.                    <br/>|
 |You can not change operations destination location if picking state not is in %s|
 |You can not process an actual movement date in the future.|
 |You can not re-open a period which belongs to closed fiscal year|
@@ -1329,8 +1163,7 @@ picking to draft state|
 |You can select which partners have valued pickings|
 |You can select which partners have valued pickings|
 |You can select which partners have valued pickings|
-|You can set an optionnal <strong class=""text-primary"">PRICE</strong>
-                            at the end of the subject of your email.|
+|You can set an optionnal <strong class=""text-primary"">PRICE</strong>                            at the end of the subject of your email.|
 |You can set to draft cancelled moves only|
 |You cannot change destination location if any move has a destination move.|
 |You cannot define a negative or null number of counts per period.|
@@ -1345,12 +1178,11 @@ picking to draft state|
 |You cannot scrap a move without having available stock for %s. You can correct it with an inventory adjustment.|
 |You cannot use the same serial number in two different lines.|
 |You cannot validate this stock operation because the stock level of the product '%s'%s would become negative (%s) on the stock location '%s' and negative stock is not allowed for this product.|
-|You haven't set processed (<i>done</i>) quantities. Click <i>apply</i> and
-                        Odoo will process all quantities to do.|
+|You haven't set processed (<i>done</i>) quantities. Click <i>apply</i> and                        Odoo will process all quantities to do.|
 |You must enter a lot for this product!|
 |You must enter done quantity in order to split your picking in several ones.|
 |You need to provide a Lot/Serial Number for product %s|
 |You will also use this step for barcode scanning.|
-|Your Expense %s has been refused.<br/><ul class=o_timeline_tracking_value_list><li>Reason<span> : </span><span class=o_timeline_tracking_value>%s</span></li></ul>|
+|Your Expense %s has been refused.<br/><ul class=o_timeline_tracking_value_list><li>Reason<span> : </span><spanclass=o_timeline_tracking_value>%s</span></li></ul>|
 |Zero Confirmation|
 |Zero confirmation rules can only have one warehouse assigned.|
