@@ -49,15 +49,15 @@
 |%(user_name)s invited you to follow a new document|
 |(No description provided.)|
 |(Youtube, Vimeo, Dailymotion)|
-|| Login %s|
-||Confirm step|
-||Error step|
-||Final step|
-||Introduction|
-||Message step|
-||Number (integer) step|
-||Quantity (float) step|
-||Text input step|
+| Login %s|
+|Confirm step|
+|Error step|
+|Final step|
+|Introduction|
+|Message step|
+|Number (integer) step|
+|Quantity (float) step|
+|Text input step|
 |<p>Managers can validate or refuse expense reports.</p><p>If you refuse a report, explain the reason using the <i>New Message</i> button in the bottom.</p>|
 |<p>Once completed, you can <b>submit the expense</b> for approval.</p><p><i>Tip: from the list view, select all expenses to submit them all at once, in a single report.</i></p>|
 |<span class="o_stat_text">Expired Outgoing</span>|
