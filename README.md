@@ -4,31 +4,10 @@
 |Author|果冻虾仁|
 |---|---
 | This channel is private. People must be invited to join it.|
-"|
-Bolivian accounting chart and tax localization.
-
-Plan contable boliviano e impuestos de acuerdo a disposiciones vigentes
-
-    |"
-"|
-Peruvian accounting chart and tax localization. According the PCGE 2010.
-========================================================================
-
-Plan contable peruano e impuestos de acuerdo a disposiciones vigentes de la
-SUNAT 2011 (PCGE 2010).
-
-    |"
-"|
-Piano dei conti italiano di un'impresa generica.
-================================================
-
-Italian accounting chart and localization.
-    |"
-"|
-United Arab Emirates accounting chart and localization.
-=======================================================
-
-    |"
+"|Bolivian accounting chart and tax localization.Plan contable boliviano e impuestos de acuerdo a disposiciones vigentes    |"
+"|Peruvian accounting chart and tax localization. According the PCGE 2010.========================================================================Plan contable peruano e impuestos de acuerdo a disposiciones vigentes de la SUNAT 2011 (PCGE 2010).    |"
+"|Piano dei conti italiano di un'impresa generica.================================================Italian accounting chart and localization.    |"
+"|United Arab Emirates accounting chart and localization.=======================================================    |"
 |%s and %s are typing...|
 |&amp;times;|
 |&amp;times;|
